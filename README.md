@@ -4,14 +4,14 @@
 
 - Setting up
 
-- Listing images with FileManager
+- Listing images with `FileManager`
 
 - Designing our interface
 
 - Building a detail screen
 
-- Loading images with UIImage
+- Loading images with `UIImage`
 
-- Final tweaks: hidesBarsOnTap and large titles
+- Final tweaks: `hidesBarsOnTap` and large titles
 
 - Wrap up
