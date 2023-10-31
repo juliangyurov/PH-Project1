@@ -25,6 +25,10 @@ class DetailViewController: UIViewController {
         }else{
             title = selectedImage
         }
+        //selectedImage = nil
+        //assert(((selectedImage?.isEmpty) != nil), "selecteImage is nil")
+        assert(selectedImage != nil, "selectedImage is nil")
+        assert(!selectedImage!.isEmpty,"selectedImage is empty")
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
         }
